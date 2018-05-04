@@ -89,7 +89,7 @@ let setRouter = (app) => {
 	*  }
 	*/
 
-	//view a single item rating
+	//view  single item rating
 	app.get(baseUrl + '/viewItem/:itemId/rating', controller.getItemRating);
     /**
 	 * @api {get} /api/v1/ecommerce/viewItem/:itemId/rating  Get Single Item Rating
@@ -116,7 +116,8 @@ let setRouter = (app) => {
         "data": null
         }
 	 */
-	//view item by name {there can be many items with same name}
+
+	 //view item by name 
 	app.get(baseUrl + '/viewItem/by/:itemName', controller.viewItemByName);
 	/**
 	* @api {get} /api/v1/ecommerce/viewItem/by/:itemName  Get Single Item Detail byName
@@ -202,6 +203,7 @@ let setRouter = (app) => {
 
 	// delete item
 	app.post(baseUrl + '/:itemId/deleteItem', controller.deleteItem);
+
 	/**
 	* @api {post} /api/v1/blogs/ecommerce/:itemId/deleteItem Delete Item
 	* @apiVersion 0.0.1
@@ -230,6 +232,7 @@ let setRouter = (app) => {
 	  }
 	*/
 
+
 	// edit an item detail
 	app.put(baseUrl + '/:itemId/editItem', controller.editItem);
 	/**
@@ -255,6 +258,7 @@ let setRouter = (app) => {
 	//-----------------------
 	// for cart
 	//-----------------------
+
 
 	app.get(baseUrl + '/cart/allItem', controller.getAllItemFromCart);
 	/**
@@ -295,6 +299,7 @@ let setRouter = (app) => {
 	*   "data": null
 	* }
 	*/
+
 
 	//add item  to cart
 	app.post(baseUrl + '/cart/:itemId/addItem', controller.addItemToCart);

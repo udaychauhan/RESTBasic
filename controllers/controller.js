@@ -6,7 +6,7 @@ const time = require('./../libs/timeLib');
 const logger = require('./../libs/loggerLib');
 const check = require('./../libs/checkLib');
 
-// importing item model
+// importing item and cart model
 const ItemModel = mongoose.model('Item');
 const CartModel = mongoose.model('Cart');
 
@@ -333,9 +333,3 @@ module.exports = {
     getCartCost : getCartCost
 }
 
-// now check every query that's it
-// api doc remains
-// check that any extra library or query is needed
-//CHECK EVRY THING REQUIRED IN ASSIGNEMENT IS FINISHED
-// problemo while deleteion even if the item does not exist it still says item is deleted and the 
-// deleteion result is send how??
