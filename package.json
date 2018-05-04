@@ -1,0 +1,24 @@
+{
+  "name": "ecommerce-application",
+  "version": "1.0.0",
+  "description": "This is an app for backend of an ecommerce website, where you can add, delete, search and view all products. Also you can manage cart.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Uday Chauhan",
+  "license": "ISC",
+  "dependencies": {
+    "apidoc": "^0.17.6",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "helmet": "^3.12.0",
+    "moment": "^2.22.1",
+    "moment-timezone": "^0.5.16",
+    "mongoose": "^5.0.17",
+    "pino": "^4.16.1",
+    "shortid": "^2.2.8"
+  }
+}
