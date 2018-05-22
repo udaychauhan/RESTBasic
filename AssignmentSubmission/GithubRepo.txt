@@ -1,0 +1,9 @@
+
+
+Link To Github Repo : https://github.com/udaychauhan/RESTBasic.git
+
+The documentation is contained in apiDoc folder, just double-click the index.html folder.
+
+ or 
+ 
+I have uploaded it on https://udaychauhan.github.io/
